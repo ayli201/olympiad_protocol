@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=protocol-wails3
+Exec=protocol-wails3
+Icon=protocol-wails3
+Categories=Development;
+Terminal=false
+Keywords=wails
+Version=1.0
+StartupNotify=false

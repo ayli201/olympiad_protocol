@@ -1,0 +1,17 @@
+// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
+//
+// Example:
+[
+  {
+    "label": "run dev",
+    "command": "wails3 dev",
+  },
+  {
+    "label": "run build linux",
+    "command": "wails3 build",
+  },
+  {
+    "label": "run build windows",
+    "command": "wails3 build -platform windows/amd64",
+  },
+]

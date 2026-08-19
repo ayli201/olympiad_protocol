@@ -1,0 +1,19 @@
+html {
+  line-height: 1.15;
+}
+
+body {
+  background: #dae2ea47 !important;
+}
+
+input,
+select,
+textarea,
+button,
+div,
+a {
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}

@@ -1,0 +1,51 @@
+.data-table {
+    @apply overflow-auto max-h-125 rounded-xl border border-slate-200 shadow-sm bg-white;
+}
+
+.data-table table {
+    @apply w-full table-fixed border-separate border-spacing-0 text-left
+    text-sm text-slate-600;
+}
+
+.data-table thead {
+    @apply sticky top-0 z-10 text-xs
+    uppercase tracking-wider select-none;
+}
+
+.data-table thead tr {
+    @apply bg-blue-500  text-white border-b border-slate-200 last:border-b-0;
+}
+
+.data-table th {
+    @apply hover:bg-blue-700 overflow-hidden border-b border-r border-slate-200
+    box-border transition-colors;
+}
+
+.data-table th > div {
+    @apply w-full h-full flex items-center px-2
+    transition-colors outline-none;
+}
+
+.data-table tbody {
+    @apply bg-white;
+}
+
+.data-table tbody tr {
+    @apply hover:bg-slate-100 transition-colors odd:bg-white even:bg-slate-50/30;
+}
+
+.data-table td {
+    @apply overflow-hidden border-b border-r border-slate-200
+    focus-within:bg-indigo-50/30 transition-colors cursor-text select-all;
+}
+
+.data-table td > input {
+    @apply w-full h-full py-0.5 px-1 box-border bg-transparent border-none text-slate-800
+    focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-sm;
+}
+
+.data-table td select {
+    @apply w-full h-full appearance-none py-0.5 bg-transparent
+    border-none text-xs focus:outline-none
+    focus:ring-2 focus:ring-indigo-500 rounded-sm cursor-pointer pr-10;
+}

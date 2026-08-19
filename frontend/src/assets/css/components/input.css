@@ -1,0 +1,10 @@
+.itd {
+    @apply w-full h-full;
+}
+
+/* Полностью удаляем стрелки в WebView2 (Windows) и WebKit (macOS/Linux) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

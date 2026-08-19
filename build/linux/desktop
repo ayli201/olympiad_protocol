@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=My Product
+Comment=A protocol_wails3 application
+# The Exec line includes %u to pass the URL to the application
+Exec=/usr/local/bin/protocol_wails3 %u
+Terminal=false
+Type=Application
+Icon=protocol_wails3
+Categories=Utility;
+StartupWMClass=protocol_wails3
+
+ 
